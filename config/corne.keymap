@@ -101,19 +101,19 @@
 
         lower_layer {
             bindings = <
-&kp SQT    &kp N1           &kp N2       &kp N3     &kp N4      &kp N5       &kp N6           &kp N7            &kp N8             &kp N9                &kp N0                 &kp DEL
-&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR  &kp PERCENT  &kp CARET        &kp AMPERSAND     &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH
-&kp PIPE   &kp UNDER        &kp MINUS    &kp EQUAL  &kp PLUS    &kp F7       &kp PRINTSCREEN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RIGHT_SHIFT
-                                         &trans     &trans      &trans       &trans           &sl 3             &kp END
+&kp SQT    &kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp QUESTION  &kp F5       &kp N6           &kp KP_NUMBER_7  &kp KP_N8        &kp KP_NUMBER_9  &kp N0  &kp DEL
+&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DOLLAR    &kp PERCENT  &kp CARET        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans  &kp NON_US_BACKSLASH
+&kp PIPE   &kp UNDER        &kp MINUS      &kp EQUAL     &kp PLUS      &kp F7       &kp PRINTSCREEN  &kp KP_N1        &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &kp RIGHT_SHIFT
+                                           &trans        &trans        &trans       &trans           &sl 3            &kp END
             >;
         };
 
         raise_layer {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5   &kp HOME  &trans    &kp UP    &trans     &trans         &trans
-&trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp END   &kp LEFT  &kp DOWN  &kp RIGHT  &kp LC(C)      &kp RC(V)
-&trans  &trans  &trans  &trans  &trans  &trans   &trans    &trans    &trans    &trans     &kp RS(RC(C))  &kp RS(RC(V))
-                        &trans  &sl 3   &trans   &trans    &trans    &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5   &kp HOME        &trans        &trans    &trans     &trans         &trans
+&trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN  &kp RIGHT  &kp LC(C)      &kp RC(V)
+&trans  &trans  &trans  &trans  &trans  &trans   &kp END         &trans        &trans    &trans     &kp RS(RC(C))  &kp RS(RC(V))
+                        &trans  &sl 3   &trans   &trans          &trans        &trans
             >;
         };
 
