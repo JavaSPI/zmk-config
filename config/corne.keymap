@@ -85,6 +85,11 @@
             bindings = <&kp PIPE>;
             key-positions = <17 18>;
         };
+
+        F21-X11-LowerLayer {
+            bindings = <&kp F21>;
+            key-positions = <37>;
+        };
     };
 
     keymap {
