@@ -88,18 +88,22 @@
     };
 
     macros {
-        LowerAndHelp: Help {
+        LowerAndHelp: LowerAndHelp {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp K_HELP &mo 1>, <&macro_press>;
+            bindings = <&macro_tap &kp K_HELP>
+            , <&macro_press &mo 1>
+            , <&macro_release &mo 1>;
 
-            label = "HELP";
+            label = "LOWERANDHELP";
         };
 
         RaiseAndHelp: RaiseAndHelp {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp K_HELP &mo 2>, <&macro_press>;
+            bindings = <&macro_tap &kp K_HELP>
+            , <&macro_press &mo 2>
+            , <&macro_release &mo 2>;
 
             label = "RAISEANDHELP";
         };
