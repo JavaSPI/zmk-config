@@ -91,9 +91,7 @@
         LowerAndHelp: LowerAndHelp {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap &kp K_HELP>
-            , <&macro_press &mo 1>
-            , <&macro_release &mo 1>;
+            bindings = <&macro_tap>, <&kp K_HELP>, <&macro_press>, <&mo 1>;
 
             label = "LOWERANDHELP";
         };
@@ -101,9 +99,7 @@
         RaiseAndHelp: RaiseAndHelp {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap &kp K_HELP>
-            , <&macro_press &mo 2>
-            , <&macro_release &mo 2>;
+            bindings = <&macro_tap>, <&kp K_HELP>, <&macro_press>, <&mo 2>;
 
             label = "RAISEANDHELP";
         };
